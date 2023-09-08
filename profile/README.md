@@ -12,7 +12,7 @@ For more information on the language, see the [documentation](https://sdml.io/).
 
 The core repositories are:
 
-- `tree-sitter-sdml` -- The tree-sitter implementation of the SDML language. Note that the grammar defined in this
+* `tree-sitter-sdml` -- The tree-sitter implementation of the SDML language. Note that the grammar defined in this
   repository is the definitive specification.
 * `sdml.io` -- The documentation for the SDML language, available at [https://sdml.io](https://sdml.io).
 * `rust-sdml` -- Parser and Generator libraries and a CLI for manipulating SDML source files.
