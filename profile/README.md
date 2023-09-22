@@ -1,5 +1,20 @@
 ## Simple Domain Modeling Language (SDML).
 
+```
+        ___          _____          ___ 
+       /  /\        /  /::\        /__/\ 
+      /  /:/_      /  /:/\:\      |  |::\ 
+     /  /:/ /\    /  /:/  \:\     |  |:|:\    ___     ___ 
+    /  /:/ /::\  /__/:/ \__\:|  __|__|:|\:\  /__/\   /  /\ 
+   /__/:/ /:/\:\ \  \:\ /  /:/ /__/::::| \:\ \  \:\ /  /:/ 
+   \  \:\/:/~/:/  \  \:\  /:/  \  \:\~~\__\/  \  \:\  /:/ 
+    \  \::/ /:/    \  \:\/:/    \  \:\         \  \:\/:/ 
+     \__\/ /:/      \  \::/      \  \:\         \  \::/ 
+       /__/:/        \__\/        \  \:\         \__\/ 
+       \__\/          Domain       \__\/          Language
+        Simple                      Modeling
+```
+
 The Simple Domain Modeling Language (SDML) is a small data-oriented language for constructing, documenting, and
 reasoning about a conceptual domain model. At it's
 core SDML comprises:
@@ -16,4 +31,5 @@ The core repositories are:
   repository is the definitive specification.
 * `sdml.io` -- The documentation for the SDML language, available at [https://sdml.io](https://sdml.io).
 * `rust-sdml` -- Parser and Generator libraries and a CLI for manipulating SDML source files.
-* `emacs-sdml-mode` -- Syntax highlighting, indenting, and linting for SDML source files.
+* `emacs-sdml-mode` -- Syntax highlighting, indenting, and linting for SDML source files in Emacs.
+* `highlightjs-sdml` -- Syntax highlighting for SDML source files.
