@@ -37,3 +37,8 @@ Additional support for language presentation and editing is provided via:
 * `SDML.tmbundle` -- A [TextMate](https://macromates.com/) language bundle for syntax highlighting and snippet support.
 * `emacs-vscode` -- A [VSCode](https://code.visualstudio.com/) extension for syntax highlighting and snippet support.
 * `highlightjs-sdml` -- Syntax highlighting of SDML source files in HTML resources.
+
+| Tool | Highlighting | Snippets | Indentation | Folding | Linting | CLI |
+| ---- | ------------ | -------- | ----------- | ------- | ------- | --- |
+| Emacs | Complete, based on Tree-Sitter | Extensive, using `abbrev-mode` and skeletons. | Yes | Yes | Yes, using flycheck | Yes, including in org-mode. |
+| VSCode | Yes, based on TextMate grammar | Yes | Simple | No | No | Partial |
