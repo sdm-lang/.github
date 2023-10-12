@@ -31,14 +31,23 @@ The core repositories are:
 * `rust-sdml` -- Parser and Generator libraries and a CLI for manipulating SDML source files.
 * `sdml.io` -- The documentation for the SDML language, available at [https://sdml.io](https://sdml.io).
 
-Additional support for language presentation and editing is provided via:
 
-* `emacs-sdml-mode` -- An [Emacs](https://www.gnu.org/software/emacs/) package for syntax highlighting, indenting, and linting for SDML source files.
-* `SDML.tmbundle` -- A [TextMate](https://macromates.com/) language bundle for syntax highlighting and snippet support.
-* `emacs-vscode` -- A [VSCode](https://code.visualstudio.com/) extension for syntax highlighting and snippet support.
+## Source Editor
+
+The following table demonstrates the current editor support for SDML. Note that the tree-sitter parser and TextMate
+grammar alone provides multiple editor support while the Sublime Text grammar also covers the `bat` command-line tool.
+
+| Repo                                                  | Tool                                         | Highlighting                    | Snippets                                     | Indentation | Folding | Linting             | CLI                         |
+|-------------------------------------------------------|----------------------------------------------|---------------------------------|----------------------------------------------|-------------|---------|---------------------|-----------------------------|
+| [here](https://github.com/sdm-lang/emacs-sdml-mode)   | [Emacs](https://www.gnu.org/software/emacs/) | Complete, using Tree-Sitter     | Extensive, using `abbrev-mode` and skeletons | Yes         | Yes     | Yes, using flycheck | Yes, including in org-mode. |
+| [here](https://github.com/sdm-lang/emacs-vscode)      | [VSCode](https://code.visualstudio.com/)     | Yes, using TextMate grammar     | Yes, converted from TextMate                 | Simple      | No      | No                  | Partial                     |
+| [here](https://github.com/sdm-lang/SDML.tmbundle)     | [TextMate](https://macromates.com/)          | Yes, a `.tmLanguage` grammar       | Yes, extensive                               | Simple      | No      | No                  | Partial                     |
+| [here](https://github.com/sdm-lang/sdml-sublime-text) | [Sublime Text](https://www.sublimetext.com/) | Yes, a `.sublime-syntax` grammar   | No                                           | No          | No      | No                  | No                          |
+| in Sublime                                            | [bat](https://github.com/sharkdp/bat)        | Yes, using Sublime Text grammar | No                                           | No          | No      | No                  | No                          |
+| in TextMate                                           | Jet Brains                                   | Yes, using TextMate Bundle      | Yes                                          | No          | No      | No                  | No                          |
+| 
+
+
+## Other Tools
+
 * `highlightjs-sdml` -- Syntax highlighting of SDML source files in HTML resources.
-
-| Tool | Highlighting | Snippets | Indentation | Folding | Linting | CLI |
-| ---- | ------------ | -------- | ----------- | ------- | ------- | --- |
-| Emacs | Complete, based on Tree-Sitter | Extensive, using `abbrev-mode` and skeletons. | Yes | Yes | Yes, using flycheck | Yes, including in org-mode. |
-| VSCode | Yes, based on TextMate grammar | Yes | Simple | No | No | Partial |
