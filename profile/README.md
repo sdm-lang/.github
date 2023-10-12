@@ -37,16 +37,17 @@ The core repositories are:
 The following table demonstrates the current editor support for SDML. Note that the tree-sitter parser and TextMate
 grammar alone provides multiple editor support while the Sublime Text grammar also covers the `bat` command-line tool.
 
-| Repo                                                  | Tool                                         | Highlighting                    | Snippets                                     | Indentation | Folding | Linting             | CLI                         |
-|-------------------------------------------------------|----------------------------------------------|---------------------------------|----------------------------------------------|-------------|---------|---------------------|-----------------------------|
-| [here](https://github.com/sdm-lang/emacs-sdml-mode)   | [Emacs](https://www.gnu.org/software/emacs/) | Complete, using Tree-Sitter     | Extensive, using `abbrev-mode` and skeletons | Yes         | Yes     | Yes, using flycheck | Yes, including in org-mode. |
-| [here](https://github.com/sdm-lang/emacs-vscode)      | [VSCode](https://code.visualstudio.com/)     | Yes, using TextMate grammar     | Yes, converted from TextMate                 | Simple      | No      | No                  | Partial                     |
-| [here](https://github.com/sdm-lang/SDML.tmbundle)     | [TextMate](https://macromates.com/)          | Yes, a `.tmLanguage` grammar       | Yes, extensive                               | Simple      | No      | No                  | Partial                     |
-| [here](https://github.com/sdm-lang/sdml-sublime-text) | [Sublime Text](https://www.sublimetext.com/) | Yes, a `.sublime-syntax` grammar   | No                                           | No          | No      | No                  | No                          |
-| in Sublime                                            | [bat](https://github.com/sharkdp/bat)        | Yes, using Sublime Text grammar | No                                           | No          | No      | No                  | No                          |
-| in TextMate                                           | Jet Brains                                   | Yes, using TextMate Bundle      | Yes                                          | No          | No      | No                  | No                          |
-| 
+| Repo                                                  | Tool                                         | Highlighting                     | Snippets                                     | Indentation | Folding | Linting             | CLI                         |
+|-------------------------------------------------------|----------------------------------------------|----------------------------------|----------------------------------------------|-------------|---------|---------------------|-----------------------------|
+| [here](https://github.com/sdm-lang/emacs-sdml-mode)   | [Emacs](https://www.gnu.org/software/emacs/) | Complete, using Tree-Sitter      | Extensive, using `abbrev-mode` and skeletons | Yes         | Yes     | Yes, using flycheck | Yes, including in org-mode. |
+| [here](https://github.com/sdm-lang/emacs-vscode)      | [VSCode](https://code.visualstudio.com/)     | Yes, using TextMate grammar      | Yes, converted from TextMate                 | Simple      | No      | No                  | Partial                     |
+| [here](https://github.com/sdm-lang/SDML.tmbundle)     | [TextMate](https://macromates.com/)          | Yes, a `.tmLanguage` grammar     | Yes, extensive                               | Simple      | No      | No                  | Partial                     |
+| [here](https://github.com/sdm-lang/sdml-sublime-text) | [Sublime Text](https://www.sublimetext.com/) | Yes, a `.sublime-syntax` grammar | No                                           | No          | No      | No                  | No                          |
+| in Sublime                                            | [bat](https://github.com/sharkdp/bat)        | Yes, using Sublime Text grammar  | No                                           | No          | No      | No                  | No                          |
+| in TextMate                                           | Jet Brains                                   | Yes, using TextMate Bundle       | Yes                                          | No          | No      | No                  | No                          |
+|                                                       | Neovim                                       | Using Tree-Sitter                | ?                                            | ?           | ?       | ?                   | ?                           |
 
+Instructions exist for integrating tree-sitter parsers into Neovim, this is not tested.
 
 ## Other Tools
 
