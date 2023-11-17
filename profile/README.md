@@ -1,19 +1,6 @@
 ## Simple Domain Modeling Language (SDML).
 
-```
-        ___          _____          ___
-       /  /\        /  /::\        /__/\
-      /  /:/_      /  /:/\:\      |  |::\
-     /  /:/ /\    /  /:/  \:\     |  |:|:\    ___     ___
-    /  /:/ /::\  /__/:/ \__\:|  __|__|:|\:\  /__/\   /  /\
-   /__/:/ /:/\:\ \  \:\ /  /:/ /__/::::| \:\ \  \:\ /  /:/
-   \  \:\/:/~/:/  \  \:\  /:/  \  \:\~~\__\/  \  \:\  /:/
-    \  \::/ /:/    \  \:\/:/    \  \:\         \  \:\/:/
-     \__\/ /:/      \  \::/      \  \:\         \  \::/
-       /__/:/        \__\/        \  \:\         \__\/
-       \__\/          Domain       \__\/          Language
-        Simple                      Modeling
-```
+![SDML Logo Text](./horizontal-text.svg)
 
 The Simple Domain Modeling Language (SDML) is a small data-oriented language for constructing, documenting, and
 reasoning about a conceptual domain model. At it's core SDML comprises:
