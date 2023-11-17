@@ -1,6 +1,6 @@
 ## Simple Domain Modeling Language (SDML).
 
-![SDML Logo Text](./horizontal-text.svg)
+![SDML Logo Text](https://raw.githubusercontent.com/sdm-lang/.github/main/profile/horizontal-text.svg)
 
 The Simple Domain Modeling Language (SDML) is a small data-oriented language for constructing, documenting, and
 reasoning about a conceptual domain model. At it's core SDML comprises:
