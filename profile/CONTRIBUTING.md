@@ -11,6 +11,11 @@ help this project continue to grow and improve.
    introduction. Alternatively, *documentation* issues can be a great way
    to understand the project and help improve the developer experience.
 
+In terms of commits, please read how to write a
+[good commit message](https://cbea.ms/git-commit/https://cbea.ms/git-commit/).
+For pull requests, please use the template
+[PULL_REQUEST_TEMPLATE.md](./PULL_REQUEST_TEMPLATE.md).
+
 Repositories will include issue templates and a common set of issue labels.
 
 ## Submitting changes
