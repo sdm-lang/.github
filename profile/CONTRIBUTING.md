@@ -73,7 +73,7 @@ All repositories are dual licensed with
 ### Apache-2.0
 
 ```text
-Copyright 2025 Simon Johnston <johnstonskj@gmail.com>
+Copyright 2023-2025 Simon Johnston <johnstonskj@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -93,7 +93,7 @@ See the enclosed file [LICENSE-APACHE](./LICENSE-APACHE).
 ### MIT
 
 ```text
-Copyright 2025 Simon Johnston <johnstonskj@gmail.com>
+Copyright 2023-2025 Simon Johnston <johnstonskj@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
